@@ -119,8 +119,19 @@ header img {
   cursor: pointer;
   color: white;
 }
+.image-wrapper {
+  float: left;
+  margin: 0 15px 15px 0;
+  max-width: 100%;
+  height: auto;
+}
 /* Responsive Styles */
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+  .image-wrapper {
+    float: none;
+    display: block;
+    margin: 0 auto 15px;
+  }
   .menu-button {
     display: block; /* Show menu button */
   }
