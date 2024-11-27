@@ -28,6 +28,18 @@ header {
   border-bottom: 5px solid #F0605C;
   background-image: linear-gradient(180deg, #FD5E53, #005477);
 }
+header h1 {
+  font-size: 2.5rem; /* Scaled proportionally */
+  margin: 5px 5%;
+  color: #FD5E53;
+  text-indent: 5%; /* Adjusted for flexibility */
+  font-style: italic;
+}
+header h2 {
+  font-size: 1.5rem; /* Proportional font size */
+  text-indent: 5%;
+  color: #AAF0D1;
+}
 #nav_menu ul {
   list-style-type: none;
   margin: 0;
