@@ -43,9 +43,10 @@ header h2 {
 }
 header img {
   float: left;
-  width: 100%;
+  width: %;
   height: auto;
   margin: 0 5%;
+  z-index: -1;
 }
 #nav_menu ul {
   list-style-type: none;
