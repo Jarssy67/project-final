@@ -58,7 +58,7 @@ header h2 {
 #nav_menu ul li a {
   display: block; 
   text-decoration: none;
-  background-color: linear-gradient(180deg, deepnavyblue, skyblue);
+  background-color: linear-gradient(180deg, #FD5E53, #87CEEB;
   color: white;
   font-weight: bold;
   border-radius: 5px;
@@ -82,7 +82,7 @@ header h2 {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: deepnavyblue;
+  background-color: #FD5E53;
   border-radius: 5px; 
   z-index: -1; 
   min-width: 150px; 
