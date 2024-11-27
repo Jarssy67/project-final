@@ -39,6 +39,7 @@ header h2 {
   font-size: 1.5rem; /* Proportional font size */
   text-indent: 5%;
   color: #AAF0D1;
+  font-style: italic;
 }
 #nav_menu ul {
   list-style-type: none;
