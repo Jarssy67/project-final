@@ -125,8 +125,30 @@ header img {
   max-width: 100%;
   height: auto;
 }
+aside {
+  width: 215px;
+  float: right;
+  padding: 0 0 20px 20px;
+}
+aside h3 {
+  font-size: 105%;
+  padding-bottom: .25em;
+}
+aside img {
+  padding-bottom: 1em;
+  max-width: 100%;
+  height: auto;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
+  aside {
+    width: 100%;
+    float: none;
+    padding: 20px 0;
+  }
+  aside h3 {
+    font-size: 120%;
+  }
   .image-wrapper {
     float: none;
     display: block;
