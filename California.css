@@ -48,6 +48,7 @@ header img {
   margin: 0 5%;
   z-index: -1;
 }
+/* Base Styles */
 #nav_menu ul {
   list-style-type: none;
   margin: 0;
@@ -66,13 +67,11 @@ header img {
 #nav_menu ul li a {
   display: block;
   text-decoration: none;
-  background-color: linear-gradient(180deg, #FD5E53, #87CEEB);
+  background: linear-gradient(180deg, #FD5E53, #87CEEB); /* Fixed gradient */
   color: white;
   font-weight: bold;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  width: auto;
-  max-width: none; /* Removed max-width */
   padding: 1rem 2rem;
   font-size: 1.2rem;
   text-align: center;
@@ -94,7 +93,7 @@ header img {
   padding: 0;
   background-color: #FD5E53;
   border-radius: 5px;
-  z-index: 1; /* Changed to 1 to ensure visibility */
+  z-index: 10; /* Ensures visibility */
   min-width: 150px;
 }
 #nav_menu ul ul li {
@@ -107,41 +106,42 @@ header img {
   text-align: left;
 }
 #nav_menu ul li:hover > ul {
-  display: block;
+  display: block; /* Dropdown menu */
 }
-#nav_menu > ul::after {
-  content: "";
-  clear: both;
-  display: block;
-}
+/* Hidden checkbox */
 #menuToggle {
   display: none;
 }
+/* Menu button */
 .menu-button {
   display: none;
   font-size: 24px;
   cursor: pointer;
   color: white;
 }
+/* Responsive Styles */
 @media (max-width: 760px) {
-  display: block;
-}
-#nav_menu ul {
-  display: none;
-  flex-direction: column;
-  background-color: #FD5E53;
-  position: absolute;
-  top: 50px;
-  right: 20px;
-  width: 200px;
-  border-radius: 5px;
-  padding: 10px 0;
-}
-#nav_menu ul li {
-  text-align: center;
-  margin:  10px 0;
-}
-#menuToggle:checked ~ .nav-links {
-  display: flex;
+  .menu-button {
+    display: block; /* Show menu button */
+  }
+  #nav_menu ul {
+    display: none; /* Hide the menu by default */
+    flex-direction: column;
+    background-color: #FD5E53;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+  #nav_menu ul li {
+    text-align: center;
+    margin: 10px 0;
+  }
+  /* Show menu when checkbox is checked */
+  #menuToggle:checked ~ #nav_menu ul {
+    display: flex; /* Reveal menu */
   }
 }
+
