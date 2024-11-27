@@ -87,3 +87,19 @@ header h2 {
   z-index: -1; 
   min-width: 150px; 
 }
+#nav_menu ul ul li {
+  width: 100%; 
+}
+#nav_menu ul ul li a {
+  width: 100%; 
+  padding: 0.8rem; 
+  text-align: left; 
+}
+#nav_menu ul li:hover > ul {
+  display: block;
+}
+#nav_menu > ul::after {
+  content: "";
+  clear: both;
+  display: block;
+}
