@@ -71,4 +71,6 @@ header h2 {
   background-color: deepnavyblue;
   color: #ADEBB3;
 }
-  
+#nav_menu a.current {
+  color: gold;
+}
