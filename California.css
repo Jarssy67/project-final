@@ -23,5 +23,9 @@ a {
   padding: 0 15px;
 }
 header {
-  
+  margin: 0 auto;
+  padding: 0px;
+  border-bottom: 5px solid warmcoral;
+  background-image: linear-gradient(180deg, sunsterorange, oceanblue);
+}
   
