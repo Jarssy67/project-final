@@ -139,8 +139,39 @@ aside img {
   max-width: 100%;
   height: auto;
 }
+section {
+  width: 525px;
+  float: right;
+  padding: 0 20px 20px 20px;
+}
+section h2 {
+  color: #C0F6FB;
+  font-size: 130%;
+  padding: .5em 0 .25em 0;
+}
+section p {
+  padding-bottom: .5em;
+}
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
+  section {
+    width: 100%; 
+    float: none;
+    padding: 20px;
+  }
+  section h2 {
+    font-size: 150%;
+    text-align: center;
+  }
+  section p {
+    padding-bottom: 1em;
+  }
   aside {
     width: 100%;
     float: none;
