@@ -114,3 +114,34 @@ header img {
   clear: both;
   display: block;
 }
+#menuToggle {
+  display: none;
+}
+.menu-button {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+@media (max-width: 760px) {
+  display: block;
+}
+#nav_menu ul {
+  display: none;
+  flex-direction: column;
+  background-color: #FD5E53;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+#nav_menu ul li {
+  text-align: center;
+  margin:  10px 0;
+}
+#menuToggle:checked ~ .nav-links {
+  display: flex;
+  }
+}
