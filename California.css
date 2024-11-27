@@ -10,3 +10,9 @@ body {
 a:focus, a:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
+a {
+  color: #F5DeB3;
+}
+.shadow {
+  text-shadow: 2px 2px 2px steelblue;
+}
