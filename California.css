@@ -58,8 +58,8 @@ header h2 {
 #nav_menu ul li a {
   display: block; 
   text-decoration: none;
-  background-color: skyblue;
-  color: #98FBCB;
+  background-color: linear-gradient(180deg, deepnavyblue, skyblue);
+  color: white;
   font-weight: bold;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
