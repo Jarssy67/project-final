@@ -67,4 +67,8 @@ header h2 {
   max-width: 60%;
   text-align: center;
 }
+#nav_menu ul li a:hover {
+  background-color: deepnavyblue;
+  color: #ADEBB3;
+}
   
