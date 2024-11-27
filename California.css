@@ -1,1 +1,12 @@
-
+body {
+  font-family: Pacifico, Lobster, Poppins;
+  font-size: 100%;
+  max-width: 90%; /* Adjusted to a relative value for fluidity */
+  margin: 0 auto;
+  border: 4px #87CEEB groove;
+  box-shadow: 3px 4px 10px 3px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+a:focus, a:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
