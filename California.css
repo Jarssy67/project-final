@@ -46,9 +46,10 @@ header h2 {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 #nav_menu ul li {
   position: relative;
@@ -64,8 +65,10 @@ header h2 {
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
   width: auto;
-  text-align: center;
   max-width: none; /* Removed max-width */
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 #nav_menu ul li a:hover {
   background-color: #FD5E53;
@@ -92,7 +95,8 @@ header h2 {
 }
 #nav_menu ul ul li a {
   width: 100%;
-  padding: 0.8rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
   text-align: left;
 }
 #nav_menu ul li:hover > ul {
