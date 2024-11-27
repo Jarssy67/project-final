@@ -75,7 +75,7 @@ header h2 {
   color: gold;
 }
 #nav_menu ul ul {
-  display: none;
+  display: block;
   position: absolute; 
   top: 100%; 
   left: 0; 
