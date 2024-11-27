@@ -68,7 +68,7 @@ header h2 {
   text-align: center;
 }
 #nav_menu ul li a:hover {
-  background-color: deepnavyblue;
+  background-color: #FD5E53;
   color: #ADEBB3;
 }
 #nav_menu a.current {
