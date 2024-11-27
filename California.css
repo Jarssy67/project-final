@@ -41,6 +41,12 @@ header h2 {
   color: #AAF0D1;
   font-style: italic;
 }
+header img {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0 5%;
+}
 #nav_menu ul {
   list-style-type: none;
   margin: 0;
