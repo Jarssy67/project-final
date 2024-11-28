@@ -1,5 +1,5 @@
 body {
-  font-family: Pacifico, Lobster, Poppins;
+  font-family: Pacifico, Lobster, Poppins, sans-serif;
   font-size: 100%;
   max-width: 90%; /* Adjusted to a relative value for fluidity */
   margin: 0 auto;
@@ -11,7 +11,7 @@ a:focus, a:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 a {
-  color: #F5DeB3;
+  color: #F5DeB3; /* Test for contrast accessibility */
 }
 .shadow {
   text-shadow: 2px 2px 2px #FFD700;
@@ -24,9 +24,10 @@ a {
 }
 header {
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
   border-bottom: 5px solid #F0605C;
   background-image: linear-gradient(180deg, #FD5E53, #005477);
+  position: relative; /* Required for z-index context */
 }
 header h1 {
   font-size: 2.5rem; /* Scaled proportionally */
@@ -43,7 +44,7 @@ header h2 {
 }
 header img {
   float: left;
-  width: %;
+  width: 50%; /* Added default value */
   height: auto;
   margin: 0 5%;
   z-index: -1;
@@ -67,7 +68,7 @@ header img {
 #nav_menu ul li a {
   display: block;
   text-decoration: none;
-  background: linear-gradient(180deg, #FD5E53, #87CEEB); /* Fixed gradient */
+  background: linear-gradient(180deg, #FD5E53, #87CEEB);
   color: white;
   font-weight: bold;
   border-radius: 5px;
@@ -93,7 +94,7 @@ header img {
   padding: 0;
   background-color: #FD5E53;
   border-radius: 5px;
-  z-index: 10; /* Ensures visibility */
+  z-index: 10;
   min-width: 150px;
 }
 #nav_menu ul ul li {
@@ -106,7 +107,7 @@ header img {
   text-align: left;
 }
 #nav_menu ul li:hover > ul {
-  display: block; /* Dropdown menu */
+  display: block;
 }
 /* Hidden checkbox */
 #menuToggle {
@@ -135,7 +136,7 @@ aside {
 }
 aside h3 {
   font-size: 105%;
-  padding-bottom: .25em;
+  padding-bottom: 0.25em;
 }
 aside img {
   padding-bottom: 1em;
@@ -150,10 +151,10 @@ section {
 section h2 {
   color: #C0F6FB;
   font-size: 130%;
-  padding: .5em 0 .25em 0;
+  padding: 0.5em 0 0.25em 0;
 }
 section p {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
   font-size: 1.4rem;
 }
 section img {
@@ -163,19 +164,18 @@ section img {
   margin: 1em auto;
 }
 footer {
-	background-color: #931420;
-	clear: both;
-
+  background-color: #931420;
+  clear: both;
 }
 footer p {
-	text-align: center;
-	color: white;
-	padding: 1em 0;
+  text-align: center;
+  color: white;
+  padding: 1em 0;
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
   section {
-    width: 100%; 
+    width: 100%;
     float: none;
     padding: 20px;
   }
@@ -200,10 +200,10 @@ footer p {
     margin: 0 auto 15px;
   }
   .menu-button {
-    display: block; /* Show menu button */
+    display: block;
   }
   #nav_menu ul {
-    display: none; /* Hide the menu by default */
+    display: none;
     flex-direction: column;
     background-color: #FD5E53;
     position: absolute;
@@ -217,9 +217,7 @@ footer p {
     text-align: center;
     margin: 10px 0;
   }
-  /* Show menu when checkbox is checked */
   #menuToggle:checked ~ #nav_menu ul {
-    display: flex; /* Reveal menu */
+    display: flex;
   }
 }
-
