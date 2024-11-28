@@ -125,6 +125,9 @@ header img {
   max-width: 100%;
   height: auto;
 }
+main {
+  clear: left;
+}
 aside {
   width: 215px;
   float: right;
@@ -158,6 +161,16 @@ section img {
   height: auto;
   display: block;
   margin: 1em auto;
+}
+footer {
+	background-color: #931420;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
