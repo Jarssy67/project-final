@@ -1,5 +1,5 @@
 body {
-  font-family: Pacifico, Lobster, Poppins, sans-serif;
+  font-family: 'Pacifico', 'Lobster', 'Poppins', sans-serif;
   font-size: 100%;
   max-width: 90%; /* Adjusted to a relative value for fluidity */
   margin: 0 auto;
@@ -11,7 +11,7 @@ a:focus, a:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 a {
-  color: #F5DeB3; /* Test for contrast accessibility */
+  color: #F5DEB3; /* Test for contrast accessibility */
 }
 .shadow {
   text-shadow: 2px 2px 2px #FFD700;
@@ -23,9 +23,9 @@ a {
   padding: 0;
 }
 .video-container {
-  positon: relative;
+  position: relative; /* Fixed typo "positon" */
   width: 100%;
-  padding-bottom: 56.25%;
+  padding-bottom: 56.25%; /* Aspect ratio 16:9 */
   height: 0;
   overflow: hidden;
 }
@@ -44,14 +44,14 @@ header {
   position: relative; /* Required for z-index context */
 }
 header h1 {
-  font-size: 2.5rem; /* Scaled proportionally */
+  font-size: 2.5rem;
   margin: 5px 5%;
   color: #FD5E53;
-  text-indent: 5%; /* Adjusted for flexibility */
+  text-indent: 5%;
   font-style: italic;
 }
 header h2 {
-  font-size: 1.5rem; /* Proportional font size */
+  font-size: 1.5rem;
   text-indent: 5%;
   color: #AAF0D1;
   font-style: italic;
