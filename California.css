@@ -163,6 +163,25 @@ section img {
   display: block;
   margin: 1em auto;
 }
+.history {
+  padding: 0 20px 20px 20px;
+  border: 2px solid #BCB88A;
+}
+.history h2 {
+  color: #1e3f5a;
+  font-size: 130%;
+  padding: 0.5em 0 0.25em 0;
+}
+.history p {
+  padding-bottom: 0.5em;
+  font-size: 1.4rem;
+}
+.history img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
 footer {
   background-color: #931420;
   clear: both;
