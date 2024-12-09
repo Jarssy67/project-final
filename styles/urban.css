@@ -1,8 +1,8 @@
 body {
   font-family: Pacifico, Lobster, Poppins, sans-serif;
   font-size: 100%;
-  max-width: 90%; /* Adjusted to a relative value for fluidity */
-  margin: 0 auto;
+  max-width: 90%; 
+  margin: 0;
   border: 4px #87CEEB groove;
   box-shadow: 3px 4px 10px 3px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease;
@@ -11,7 +11,7 @@ a:focus, a:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 a {
-  color: #F5DeB3; /* Test for contrast accessibility */
+  color: #F5DeB3; 
 }
 .shadow {
   text-shadow: 2px 2px 2px #FFD700;
@@ -27,7 +27,7 @@ header {
   padding: 0;
   border-bottom: 5px solid #F0605C;
   background-image: linear-gradient(180deg, #FD5E53, #005477);
-  position: relative; /* Required for z-index context */
+  position: relative; 
 }
 header h1 {
   font-size: 2.5rem; /* Scaled proportionally */
