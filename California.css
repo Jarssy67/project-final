@@ -68,7 +68,7 @@ header img {
 #nav_menu ul li a {
   display: block;
   text-decoration: none;
-  background: linear-gradient(180deg, #FD5E53, #87CEEB);
+  background: #005477;
   color: white;
   font-weight: bold;
   border-radius: 5px;
