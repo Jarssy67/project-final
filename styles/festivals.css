@@ -44,7 +44,7 @@ header h2 {
 }
 header img {
   float: left;
-  width: 16%; /* Added default value */
+  width: 16%; 
   height: auto;
   margin: 0 5%;
   z-index: -1;
