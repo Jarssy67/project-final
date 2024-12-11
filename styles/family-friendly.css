@@ -168,7 +168,7 @@ section img {
   margin: 1em auto;
 }
 footer {
-  background-color: #931420;
+  background-color: linear-gradient(180deg, #FD5E53, #005477);
   clear: both;
 }
 footer p {
